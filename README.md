@@ -19,6 +19,17 @@ The method I wrote, `generate_encoded`, returns two encoded strings (hashes) alo
 </br>
 </br>
 
+## How to run the program:
+
+Clone this repo and navigate to the repo's directory locally in a Terminal window. You'll need Ruby to be installed, at least v 2.4.0.
+
+Navigate to the splunk directory and run the runner file I've provided with two JSON objects,
+`ruby runner.rb`
+
+Or, verify functionality by running my tests via `rspec spec/genuine_cats_spec.rb`.
+
+</br>
+
 ## My implementation:
 
 I used a total of three ruby modules,  included using require statements:
@@ -32,16 +43,6 @@ It then leverages the parsed hash value in:
 </br>
 </br>
 
-## How to run the program:
-
-Clone this repo and navigate to the repo's directory locally in a Terminal window. You'll need Ruby to be installed, at least v 2.4.0.
-
-Navigate to the splunk directory and run the runner file I've provided with two JSON objects,
-`ruby runner.rb`
-
-Or, verify functionality by running my tests via `rspec spec/genuine_cats_spec.rb`.
-
-</br>
 
 ## ⚠️ NOTE!
 There are differences between the example output hash values provided for this exercise and the hash values produced by my method! Here's why:
