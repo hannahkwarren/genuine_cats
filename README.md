@@ -35,7 +35,7 @@ Or, verify functionality by running my tests via `rspec spec/genuine_cats_spec.r
 I used a total of three ruby modules,  included using require statements:
 ['json'](https://ruby-doc.org/stdlib-3.0.2/libdoc/json/rdoc/JSON.html), ['base64'](https://ruby-doc.org/stdlib-3.1.2/libdoc/base64/rdoc/Base64.html), and ['openssl'](https://ruby-doc.org/stdlib-3.1.0/libdoc/openssl/rdoc/OpenSSL.html).
 
-My `generate_encoded()` method uses a helper method `valid_json` to verify the provided object is parseable and return a message to the terminal if there's a problem with the JSON input.
+My `generate_encoded` method uses a helper method `valid_json` to verify the provided object is parseable and return a message to the terminal if there's a problem with the JSON input.
 It then leverages the parsed hash value in:
 
 * `Base64.strict_encode64(msg)` - strict_encode64 encodes messages without adding line feeds.
